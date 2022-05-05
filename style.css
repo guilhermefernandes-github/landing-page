@@ -36,3 +36,51 @@ body {
     font-size: 24px;
     color: #F9FAF8;
 }
+
+.body {
+    display: flex;
+    flex-direction: column;
+}
+
+.content1 {
+    background: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    height: 400px;
+}
+
+.ctt1-one, .placeholder {
+    height: 200px;
+    width: 400px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.ctt1-para {
+    color: #F9FAF8;
+    margin-bottom: 12px;
+}
+
+.ctt1-signup {
+    border: none;
+    background: #3882F6;
+    color: #F9FAF8;
+    font-weight: bold;
+    padding: 8px 32px;
+    border-radius: 8px;
+}
+
+.placeholder {
+    background: gray;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
