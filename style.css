@@ -165,3 +165,39 @@ img {
     font-size: 14px;
     padding: 20px;
 }
+
+.content4 {
+    background: white;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ctt4-box {
+    display: flex;
+    background: #3882F6;
+    padding: 30px 60px;
+    border-radius: 10px;
+    gap: 50px;
+}
+
+.ctt4-signup {
+    flex: 1;
+    border: 1px solid white;
+    background: #3882F6;
+    padding: 3px 24px;
+    border-radius: 8px;
+    color: #F9FAF8;
+}
+
+.ctt4-title {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.ctt4-msg {
+    color: #F9FAF8;
+    font-size: 18px;
+}
